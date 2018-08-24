@@ -1,10 +1,10 @@
 {
-  "name": "hello-world",
+  "name": "my-world",
   "version": "0.0.0",
-  "description": "A schematics",
+  "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && jasmine **/*_spec.js"
+    "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
     "schematics"
